@@ -1,3 +1,11 @@
+import { techSkills } from "./techSkills";
+import { contacts } from "./contacts";
+import TechSkills from "../../components/TechSkills/Techskills";
+import Contacts from "../../components/Contacts/Contacts";
+// import Contacts from "";
+
+// import styles from "./HomePage.module.scss";
+
 const HomePage = () => {
   return (
     <>
@@ -14,11 +22,26 @@ const HomePage = () => {
             enthusiastic and look forward new challenges.
           </p>
         </div>
-        <div>{/* <img /> */}</div>
+        <div>{/* <img alt={my -photo} /> */}</div>
         <title>TechSkills</title>
-        <TechSkills />
+        <ul>
+          {techSkills.map(({ id, label, icon }) => (
+            <TechSkills key={id} label={label} icon={icon} />
+          ))}
+        </ul>
         <title>Contacts</title>
-        <Contacts />
+        <ul>
+          {contacts.map(({ id, item, link, icon, name }) => (
+            <Contacts
+              key={id}
+              item={item}
+              link={link}
+              icon={icon}
+              name={name}
+            />
+          ))}
+        </ul>
+        {/* <Contacts /> */}
       </section>
     </>
   );

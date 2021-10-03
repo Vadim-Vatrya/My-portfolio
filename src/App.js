@@ -3,7 +3,7 @@
 
 import { Route } from "react-router-dom";
 
-import HomePage from "./views/HomeView";
+import HomePage from "./views/HomePage";
 import Container from "./components/Container";
 import AppBar from "./components/AppBar";
 
