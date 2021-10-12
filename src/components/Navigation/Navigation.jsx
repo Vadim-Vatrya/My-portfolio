@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navigation = () => (
   <nav>
     <Link to="/"> HomePage </Link>
-    <Link to="/works"> My works </Link>
+    <Link to="/projects"> My projects </Link>
     <Link to="/resume"> My resume </Link>
   </nav>
 );

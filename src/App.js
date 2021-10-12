@@ -6,6 +6,7 @@ import { Route } from "react-router-dom";
 import HomePage from "./views/HomePage";
 import Container from "./components/Container";
 import AppBar from "./components/AppBar";
+import ProjectPage from "./views/ProjectView/ProjectPage";
 
 function App() {
   return (
@@ -14,6 +15,12 @@ function App() {
       <Route path="/" exact>
         <HomePage />
       </Route>
+      <Route path="/projects">
+        <ProjectPage />
+      </Route>
+      {/* <Route>
+        <NotFoundView />
+      </Route> */}
     </Container>
   );
 }

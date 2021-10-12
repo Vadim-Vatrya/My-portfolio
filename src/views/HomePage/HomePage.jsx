@@ -11,7 +11,7 @@ const HomePage = () => {
     <>
       <section>
         <div>
-          <title> Hi, glad to welcome! </title>
+          <h2> Hi, glad to welcome! </h2>
           <h1> My name Vadym Vatrya and I am Front-end Developer</h1>
           <p>
             I'm a beginner Front-end Developer. Front-end technologies are the
@@ -23,24 +23,28 @@ const HomePage = () => {
           </p>
         </div>
         <div>{/* <img alt={my -photo} /> */}</div>
-        <title>TechSkills</title>
-        <ul>
-          {techSkills.map(({ id, label, icon }) => (
-            <TechSkills key={id} label={label} icon={icon} />
-          ))}
-        </ul>
-        <title>Contacts</title>
-        <ul>
-          {contacts.map(({ id, item, link, icon, name }) => (
-            <Contacts
-              key={id}
-              item={item}
-              link={link}
-              icon={icon}
-              name={name}
-            />
-          ))}
-        </ul>
+        <div>
+          <h2>TechSkills</h2>
+          <ul>
+            {techSkills.map(({ id, label, icon }) => (
+              <TechSkills key={id} label={label} icon={icon} />
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h2>Contacts</h2>
+          <ul>
+            {contacts.map(({ id, item, link, icon, name }) => (
+              <Contacts
+                key={id}
+                item={item}
+                link={link}
+                icon={icon}
+                name={name}
+              />
+            ))}
+          </ul>
+        </div>
         {/* <Contacts /> */}
       </section>
     </>
