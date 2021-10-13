@@ -1,12 +1,12 @@
-import Projects from "./Projects";
-import { ownProjects, commandProjects } from "./Projects";
+import Projects from "";
+import { ownProjects, commandProjects } from "./MyProjects";
 
 const ProjectPage = () => {
   return (
     <>
       <div>
         <h1>Project</h1>
-        <h2>Team Projects</h2>
+        <h2>Teamwork Projects</h2>
         <ul>
           {commandProjects?.map(
             ({ id, name, link, repo, info, technology, preview }) => (
@@ -25,10 +25,10 @@ const ProjectPage = () => {
         <h2>Own Projects</h2>
         <ul>
           {ownProjects?.map(
-            ({ id, name, link, repo, info, technology, preview }) => (
+            ({ id, label, link, repo, info, technology, preview }) => (
               <Projects
                 key={id}
-                name={name}
+                label={label}
                 link={link}
                 // preview={preview}
                 info={info}

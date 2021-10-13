@@ -1,7 +1,7 @@
 export const commandProjects = [
   {
     id: "id-1",
-    name: "Ice cream",
+    label: "Ice cream",
     link: "https://vitalii-skubii.github.io/icecream/",
     repo: "https://github.com/vitalii-skubii/icecream/",
     // preview: iceCreamImg,
@@ -15,7 +15,7 @@ export const commandProjects = [
   },
   {
     id: "id-2",
-    name: "Project planning",
+    label: "Project planning",
     link: "https://project-planning.netlify.app/",
     repo: "https://github.com/OlenaTsemko/project-planning-rest-api",
     // preview: projectPlanningImg,
@@ -39,7 +39,7 @@ export const commandProjects = [
 export const ownProjects = [
   {
     id: "id-1",
-    name: "Web Studio",
+    label: "Web Studio",
     link: "https://vadim-vatrya.github.io/goit-markup-hw-08/",
     repo: "https://github.com/Vadim-Vatrya/goit-markup-hw-08",
     // preview: webStudioImg,
@@ -52,7 +52,7 @@ export const ownProjects = [
   },
   {
     id: "id-2",
-    name: "Image Finder",
+    label: "Image Finder",
     link: "https://vadim-vatrya.github.io/goit-js-hw-13-image-finder",
     repo: "https://github.com/Vadim-Vatrya/goit-js-hw-13-image-finder",
     // preview: imageFinderImg,
@@ -68,7 +68,7 @@ export const ownProjects = [
   },
   {
     id: "id-3",
-    name: "Movies",
+    label: "Movies",
     link: "https://vadim-vatrya-goit-react-hw-04-movies.netlify.app/",
     repo: "https://github.com/Vadim-Vatrya/goit-react-hw-04-movies",
     // preview: moviesImg,
@@ -87,7 +87,7 @@ export const ownProjects = [
   },
   {
     id: "id-4",
-    name: "PhoneBook",
+    label: "PhoneBook",
     link: "https://https://vadim-vatrya-goit-react-hw-09-phonebook.netlify.app",
     repo: "https://github.com/Vadim-Vatrya/goit-react-09-phonebook",
     // preview: phoneBookImg,
@@ -108,7 +108,7 @@ export const ownProjects = [
   },
   {
     id: "id-1",
-    name: "My-rezume",
+    label: "My-rezume",
     link: "https://vadim-vatrya.github.io/my-rezume",
     repo: "https://https://github.com/Vadim-Vatrya/goit-react-hw-09-phonebook",
     // preview: myRezumeImg,
