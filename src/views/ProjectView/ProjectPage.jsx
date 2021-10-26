@@ -1,4 +1,4 @@
-import Projects from "";
+import Projects from "../../components/Projects";
 import { ownProjects, commandProjects } from "./MyProjects";
 
 const ProjectPage = () => {

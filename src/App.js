@@ -6,22 +6,26 @@ import { Route } from "react-router-dom";
 import HomePage from "./views/HomePage";
 import Container from "./components/Container";
 import AppBar from "./components/AppBar";
+import Footer from "./components/Footer";
 import ProjectPage from "./views/ProjectView/ProjectPage";
 
 function App() {
   return (
-    <Container>
+    <>
       <AppBar />
-      <Route path="/" exact>
-        <HomePage />
-      </Route>
-      <Route path="/projects">
-        <ProjectPage />
-      </Route>
-      {/* <Route>
+      <Container>
+        <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="/projects">
+          <ProjectPage />
+        </Route>
+        {/* <Route>
         <NotFoundView />
       </Route> */}
-    </Container>
+      </Container>
+      <Footer />
+    </>
   );
 }
 

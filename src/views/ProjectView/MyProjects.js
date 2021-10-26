@@ -92,7 +92,7 @@ export const ownProjects = [
     repo: "https://github.com/Vadim-Vatrya/goit-react-09-phonebook",
     // preview: phoneBookImg,
     info: "Phonebook application with the ability to register users and work with private collections of contacts.",
-    tech: [
+    technology: [
       { id: "id-1", name: "HTML5" },
       { id: "id-2", name: "CSS3" },
       { id: "id-3", name: "React.js" },
