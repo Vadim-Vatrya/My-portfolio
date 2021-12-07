@@ -9,6 +9,8 @@ import AppBar from "./components/AppBar";
 import Footer from "./components/Footer";
 import ProjectPage from "./views/ProjectView/ProjectPage";
 
+import "./scss/_main.scss";
+
 function App() {
   return (
     <>
